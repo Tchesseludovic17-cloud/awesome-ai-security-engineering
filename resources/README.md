@@ -220,6 +220,20 @@ Evaluation framework from the UK AI Security Institute used to build repeatable 
 - **Verification:** verified (direct check, 2026-10-18); license evidence: <https://raw.githubusercontent.com/UKGovernmentBEIS/inspect_ai/main/LICENSE>
 - **Notes:** Evaluation datasets in the separate inspect_evals repository have their own licenses.
 
+## InGravity
+
+Open-source governance and safety layer for AI agents. It evaluates proposed actions against deterministic policies before execution, records decisions in SQLite, supports human approval workflows, and provides an MCP gateway.
+
+- **Type:** Open-Source Tool
+- **Lifecycle:** Defend
+- **Domain:** Agentic AI Security; AI Security Governance and Engineering Controls; AI Runtime Security
+- **License / status:** MIT
+- **Official URL:** <https://github.com/Tchesseludovic17-cloud/ingravity>
+- **Source / specification:** <https://github.com/Tchesseludovic17-cloud/ingravity>
+- **Maintainer:** InGravity maintainers
+- **Verification:** proposed (direct repository check, 2026-10-28)
+- **Notes:** The Advisor explains decisions after the deterministic rules engine and does not change the decision.
+
 ## MCP Deception Incubator
 
 Exposes a fake Kubernetes "access portal" over the Model Context Protocol, deployed on Cloudflare Workers. Its trap tools return plausible-looking responses and raise an alert when an autonomous agent probes for credentials, service endpoints or CI/CD webhooks, giving defenders a signal that an agent is exploring an environment it should not.
